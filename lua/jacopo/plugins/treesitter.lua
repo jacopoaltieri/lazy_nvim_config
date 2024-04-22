@@ -42,12 +42,13 @@ return {
         "query",
         "vimdoc",
         "c",
+        "python",
       },
       incremental_selection = {
         enable = true,
         keymaps = {
-          init_selection = "<C-space>",
-          node_incremental = "<C-space>",
+          init_selection = "<C-y>",
+          node_incremental = "<C-y>",
           scope_incremental = false,
           node_decremental = "<bs>",
         },
