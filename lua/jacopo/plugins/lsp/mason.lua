@@ -32,6 +32,7 @@ return {
 				"tailwindcss",
 				"svelte",
 				"lua_ls",
+				"ltex",
 				"graphql",
 				"emmet_ls",
 				"prismals",
