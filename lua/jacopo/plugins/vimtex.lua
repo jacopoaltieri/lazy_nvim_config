@@ -38,7 +38,7 @@ return {
 		-- PDF viewer settings
 		vim.g.vimtex_view_general_viewer = "SumatraPDF"
 		vim.g.vimtex_view_general_options = "-reuse-instance -forward-search @tex @line @pdf"
-		-- Do not auto open quickfix on compile erros
+		-- Do not auto open quickfix on compile errors
 		vim.g.vimtex_quickfix_mode = 0
 		-- Latex warnings to ignore
 		vim.g.vimtex_quickfix_ignore_filters = {
@@ -55,8 +55,8 @@ return {
 			"Package hyperref Warning: Token not allowed in a PDF string",
 			[[Overfull \\hbox ([0-9]*.[0-9]*pt too wide) in paragraph at lines]],
 		}
-		vim.g.vimtex_fold_enabled = 1
-		vim.g.vimtex_fold_manual = 1
+		vim.g.vimtex_fold_enabled = 0
+		vim.g.vimtex_fold_manual = 0
 		vim.g.vimtex_fold_types = {
 			cmd_addplot = {
 				cmds = { "addplot[+3]?" },
